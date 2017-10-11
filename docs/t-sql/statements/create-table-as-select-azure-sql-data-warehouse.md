@@ -94,7 +94,7 @@ CREATE TABLE [ database_name . [ schema_name ] . | schema_name. ] table_name
 
 ### <a name="table-distribution-options"></a>Параметры распространения таблицы
 
-`DISTRIBUTION` = `HASH`( *distribution_column_name* ) | ROUND_ROBIN | РЕПЛИЦИРОВАТЬ      
+`DISTRIBUTION` = `HASH`( *distribution_column_name* ) | ROUND_ROBIN | REPLICATE      
 Инструкция CTAS требует параметр распространения и не имеет значения по умолчанию. Это отличается от СОЗДАНИЯ таблицы, которая имеет значения по умолчанию. 
 
 Дополнительные сведения и понять, как выбрать столбец лучше всего распространения см. раздел [параметры распространения таблицы](https://msdn.microsoft.com/library/mt203953/#TableDistributionOptions) раздел в инструкции CREATE TABLE. 
